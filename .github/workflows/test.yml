@@ -6,5 +6,5 @@ jobs:
   build_image:
     runs-on: ubuntu-latest
     steps:
-      - name: Set REPO
-        run: echo $(ls)
+      - name: test
+        run: echo '456'
